@@ -70,7 +70,8 @@ class PFNN(nn.Module):
         #
         # return x2
 
-        # old way - prof.umetani
+        # old way - prof.umetani's way
+        # mine
         phase = x[:, 0] * 4
         index = torch.floor(phase)
         w = phase - index
